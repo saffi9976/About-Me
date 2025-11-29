@@ -1,0 +1,305 @@
+#welcome {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 100px;
+    padding-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(moose_maisema_pelkka.jpg);
+    background-size: auto;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 20%;
+    margin: 20px auto;
+}
+
+#mdhr {
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 30%;
+    margin: 20px auto;
+}
+
+.fadein {
+    opacity: 0;
+    animation: fadeIn 2s forwards; 
+    animation-delay: 0.5s;
+}
+
+.fadein2 {
+    opacity: 0;
+    animation: fadeIn 2s forwards; 
+    animation-delay: 2s;
+}
+
+.fadein3 {
+    opacity: 0;
+    animation: fadeIn 3s forwards; 
+    animation-delay: 6s;
+}
+
+.fadein4 {
+    opacity: 0;
+    animation: fadeIn 3s forwards; 
+    animation-delay: 4s;
+}
+
+.fadein5 {
+    opacity: 0;
+    animation: fadeIn 2s forwards; 
+    animation-delay: 0.5s;
+}
+
+.fadein6 {
+    opacity: 0;
+    animation: fadeIn 2s forwards; 
+    animation-delay: 1s;
+}
+
+.fadein7 {
+    opacity: 0;
+    animation: fadeIn 2s forwards; 
+    animation-delay: 1.5s;
+}
+
+.fadein8 {
+    opacity: 0;
+    animation: fadeIn 7s forwards; 
+    animation-delay: 8s;
+}
+
+button {
+    border-radius: 30px;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    animation-name: example;
+    animation-duration: 4s;
+    background-image: url(200.gif);
+    color: white;
+}
+
+.buttoncontainer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.664);
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+p {
+    color: white;
+    border-radius: 10px;
+}
+
+#introduction {
+    border-radius: 20px;
+    width: 50%;
+    height: 50vh;
+    background-color: transparent;
+    color: white;
+    margin-left: 470px;
+    border-color: transparent;
+    font-size: 50px;
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+}
+
+#tablealt {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 1000px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: transparent;
+    border: purple;
+}
+
+#goals {
+    text-align: center;
+    color: white;
+    background-image: url(tenor\ \(1\).gif);
+    background-size: cover;
+}
+
+#lm {
+    color: white;
+    margin-left: 0px;
+    font-size: 3em;
+    margin-top: 1000px;
+}
+
+#milestone {
+    color: white;
+}
+
+@keyframes example {
+    0%   {background-color: white;}
+    25%  {background-color: grey;}
+    50%  {background-color: white;}
+    100% {background-color: grey;}
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(138, 39, 39, 0.2);
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(211, 6, 194, 0.76);
+    margin: 8px;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+h2 {
+    color: white;
+}
+
+#h1goal {
+    color: white;
+}
+
+#arrow {
+    position: absolute;
+    top: 90%;
+    width: 100px;
+    margin-left: -520px;
+}
+
+#nav-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    width: 100%;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    display: flex; 
+    background-image: url(tenor\ \(1\).gif);
+}
+
+#nav-menu li {
+    flex: 1; 
+    text-align: center;
+}
+
+#nav-menu li a {
+    text-decoration: none; 
+    color: white;
+    display: block;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s; 
+}
+
+#nav-menu li a:hover {
+    background-color: purple;
+}
+
+body {
+    margin-top: 50px;
+}
+
+td {
+    background-image: url(giphy\ \(3\).gif);
+    background-size: cover;
+}
+
